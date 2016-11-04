@@ -4,7 +4,11 @@
   "description": "TDD Battleships Exercise",
   "main": "index.js",
   "scripts": {
-    "test": "mocha spec/game.spec.js"
+    "test": "mocha spec/game.spec.js",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "test": "{src,spec}/*.js"  
   },
   "author": "",
   "license": "ISC",
